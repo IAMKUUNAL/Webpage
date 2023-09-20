@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>layout</title>
+  <style>
+    * {
+      margin: 0;
+
+    }
+
+    .a {
+
+      padding: 10px;
+      height: 60px;
+      width: 100%;
+      word-spacing: -10px;
+    }
+
+    .b {
+      border: 0px solid black;
+      height: 100px;
+      width: 100%;
+      background-color: green;
+      padding: 10px;
+    }
+
+
+
+    .side {
+
+      height: 300px;
+      width: 30%;
+      float: left;      
+      box-sizing: border-box;
+      background-color: white;
+      border: 1px;
+
+      padding-left: 150px;
+      padding-top: 20px;
+
+
+    }
+
+    .content {
+
+      height: 300px;
+      width: 70%;
+      float: right;
+      padding: 10px;
+      box-sizing: border-box;
+      background-color: white;
+      /*border: 1px;*/
+      
+
+
+
+    }
+
+    .e {
+      border: 1px solid black;
+      height: 300px;
+      width: 100%;
+      background-color: lightgray;
+    }
+
+    h1{
+      padding-left: 100px;
+      margin: 25px;
+      box-sizing: border-box;
+
+    }
+    .u{
+      width: 80%;
+      display: flex;
+      align-items: center;
+
+    }
+
+    .l{
+      display: flex;
+      justify-content: space-around;
+      
+    }
+    .list{
+      width: 70%;
+
+    }
+
+    .dot{
+      list-style: none;
+      font-size: small;
+    }
+
+    .p{
+     /* border: 1px solid black; */
+      height: 200px;
+      width: 20%;
+      float: left;
+      box-sizing: border-box;
+      background-color: lightgrey;
+    }
+
+    .x{
+     /* border: 1px solid black; */
+      height: 200px;
+      width: 20%;
+      float: left;
+      box-sizing: border-box;
+      padding-top: 50px;
+      background-color: lightgrey;
+      padding-right: 20px;
+    }
+    .y{
+     /* border: 1px solid black; */
+      height: 200px;
+      width: 20%;
+      float: left;
+      box-sizing: border-box;
+      padding-top: 50px; ;
+      background-color: lightgrey;
+    }
+    .z{
+     /* border: 1px solid black; */
+      height: 200px;
+      width: 20%;
+      float: left;
+      box-sizing: border-box;
+      padding-top: 50px;
+      background-color: lightgrey;
+      padding-left: 30px;
+    }
+    
+    .q{
+     /* border: 1px solid black; */
+      height: 200px;
+      width: 20%;
+      float: right;
+      box-sizing: border-box;
+      background-color: lightgrey;
+    }
+    h3{
+      color: green;
+    }
+
+   
+  </style>
+</head>
+
+<body>
+  <div class="u">
+    <div class="a">
+      <h1><a href="#" style="text-decoration:none; color:darkgreen;">Cool <span style="color:#BCCE98;">Logo</span></a>
+      </h1>
+
+    </div>
+    <div class="list">
+      <ul class="l">
+         <a href="#" style="text-decoration: none; color: darkgreen;"> About </a> 
+         <a href="#" style="text-decoration: none; color: darkgreen;"> Contact</a> 
+         <a href="#" style="text-decoration: none; color: darkgreen;"> FAQ </a> 
+         <a href="#" style="text-decoration: none; color: darkgreen;"> Help </a> 
+
+      </ul>
+    </div>
+  </div>
+  <div class="b">
+    <h1 style="color: white;">Heading</h1>
+  </div>
+  <div class="side"> <h4 style="color: green; padding-left: 30px;">Left Heading</h4> <br>
+    <ul class="dot" >
+       <li> <a href="#" style="text-decoration: none; color: darkgreen;">Link1</a></li> &nbsp;
+       <li> <a href="#" style="text-decoration: none; color: darkgreen;">Link2</a></li> &nbsp;
+       <li><a href="#" style="text-decoration: none; color: darkgreen;">Link3</a></li>  &nbsp;
+       <li><a href="#" style="text-decoration: none; color: darkgreen;">Link4</a></li>  &nbsp;
+       <li><a href="#" style="text-decoration: none; color: darkgreen;">Link5</a></li>
+    </ul>
+  </div>
+  <div class="content"> <a> <input type="button" value="View Template Source Code">  </a> 
+    <br> <br> <br> <br>
+   <h3 style="color: green;">Heading</h3>  <br>
+   <p style="color: dimgrey;">The most important moment of your life is now. The most important person in your life is the one you are with now, and the most important activity in your life is the one you are involved with now. The smaller your reality, the more convinced you are that you know everything. If the facts don't fit the theory, change the facts. The past has no power over the present moment. The past has no power over the present moment. If the facts don't fit the theory, change the facts. The smaller your reality, the more convinced you are that you know everything. <br><br>
+    You will not be punished for your anger, you will be punished by your anger. If the facts don't fit the theory, change the facts. The past has no power over the present moment. The past has no power over the present moment. The past has no power over the present moment.
+  </p>
+  
+  </div>
+
+  <div class="e">
+    <div class="p"></div>
+    <div class="x"><h3>Heading</h3> <br>
+      <p style="color: green;">The smaller your reality, the more convinced you are that you know everything. Peace comes from within. Do not seek it without.</p>
+ 
+    </div>
+    <div class="y"><h3>Heading</h3>  <br>
+      <p style="color: green;">The past has no power over the present moment. Peace comes from within. Do not seek it without.</p>
+
+    </div>
+    <div class="z"><h3>Heading</h3>  <br>
+      <p style="color: green;">This, too, will pass.
+
+        You will not be punished for your anger, you will be punished by your anger.</p>
+
+    </div>
+    <div class="q"></div>
+  </div>
+
+</body>
+
+</html>
